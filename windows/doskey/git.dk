@@ -1,2 +1,2 @@
-doskey gitcb=git rev-parse --abbrev-ref HEAD
-doskey gitpcb=for /f %branch in ('git rev-parse --abbrev-ref HEAD') do git push origin "%branch"
+gitcb=git rev-parse --abbrev-ref HEAD
+gitpcb=for /f %branch in ('git rev-parse --abbrev-ref HEAD') do git push origin "%branch"
